@@ -22,56 +22,61 @@
 
     <TextView
         android:id="@+id/flashcard_answer1"
-        android:visibility="invisible"
         android:layout_width="294dp"
-        android:layout_height="62dp"
-        android:layout_alignParentTop="true"
+        android:layout_height="69dp"
+        android:layout_below="@+id/flashcard_question"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="299dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/card_background"
         android:elevation="5dp"
-        android:gravity="center"
         android:text="Concord"
+        android:textAlignment="center"
         android:textColor="@color/colorPrimary"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/flashcard_answer2"
-        android:visibility="invisible"
         android:layout_width="294dp"
-        android:layout_height="62dp"
-        android:layout_alignParentTop="true"
+        android:layout_height="69dp"
+        android:layout_below="@+id/flashcard_answer1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="386dp"
+        android:layout_marginTop="26dp"
         android:background="@drawable/card_background"
         android:elevation="5dp"
-        android:gravity="center"
         android:text="Sacramento"
+        android:textAlignment="center"
         android:textColor="@color/colorPrimary"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:gravity="center"
+
+        />
 
     <TextView
         android:id="@+id/flashcard_answer3"
-        android:visibility="invisible"
         android:layout_width="294dp"
-        android:layout_height="62dp"
-        android:layout_alignParentTop="true"
+        android:layout_height="69dp"
+        android:layout_below="@+id/flashcard_answer2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="482dp"
+        android:layout_marginTop="31dp"
         android:background="@drawable/card_background"
         android:elevation="5dp"
         android:gravity="center"
         android:text="Washington D.C."
+        android:textAlignment="center"
         android:textColor="@color/colorPrimary"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:layout_below="@id/flashcard_answer3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="13dp"
         android:text="Show Answers" />
 
 </RelativeLayout>
