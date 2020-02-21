@@ -8,7 +8,7 @@ One flashcard shown with multiple choice answer.
 ### App Walk-though
 
 
-<img src="https://recordit.co/9KJz0lz1NU" width=200><br>
+<img src="http://g.recordit.co/9KJz0lz1NU.gif" width=200><br>
 
 
 
