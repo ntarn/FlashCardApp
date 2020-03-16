@@ -5,7 +5,7 @@ A flashcard app that allows users to add and edit custom flashcards.
 
 ### App Walk-though
 
-<img src= "https://recordit.co/XBSklwpKOo" width=200><br>
+<img src= "https://g.recordit.co/XBSklwpKOo" width=200><br>
 
 
 ## Required
