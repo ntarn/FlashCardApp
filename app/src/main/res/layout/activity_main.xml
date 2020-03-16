@@ -20,6 +20,17 @@
         android:textColor="@color/colorPrimary"
         android:textSize="40sp" />
 
+    <ImageView
+        android:id="@+id/nextCard"
+        android:layout_width="67dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/flashcard_answer1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@id/button"
+        android:gravity="center"
+        android:src="@drawable/next" />
+
     <TextView
         android:id="@+id/flashcard_answer1"
         android:layout_width="294dp"
@@ -31,22 +42,6 @@
         android:elevation="5dp"
         android:gravity="center"
         android:text="Concord"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="20sp"
-        android:visibility="invisible" />
-
-    <TextView
-        android:id="@+id/flashcard_answer3"
-        android:layout_width="294dp"
-        android:layout_height="69dp"
-        android:layout_below="@+id/flashcard_answer2"
-        android:layout_marginTop="30dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/card_background"
-        android:elevation="5dp"
-        android:gravity="center"
-        android:text="Washington D.C."
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="20sp"
@@ -69,6 +64,24 @@
         android:visibility="invisible"
 
         />
+
+    <TextView
+        android:id="@+id/flashcard_answer3"
+        android:layout_width="294dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/flashcard_answer2"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/card_background"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="Washington D.C."
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+
 
     <Button
         android:id="@+id/button"
